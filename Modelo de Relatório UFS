@@ -1,0 +1,55 @@
+\documentclass[12pt,a4paper]{article}
+
+\input{Pacotes}
+
+
+\disciplina{Instalação Industrial 2}
+\prof{Wilson Luciano De Souza}
+\tema{ Layout de algum canto}
+\alunos{Jhonata do Nascimento Santos\\
+nome do aluno 2 \\ 
+nome do aluno 3 \\ 
+nome do aluno 4 \\}
+\mes{Outubro}
+\ano{2021}
+\preambulo{Avaliação referente a terceira unidade do curso de Máquinas de Fluxo, referente ao tema de ventiladores. Nesta avaliação estão englobados os temas referentes à projeto de ventilador industrial, seleção de ventilador , seleção de motor, cálculo de dutos, fora a aplicação destes em um projeto.}
+
+\begin{document}
+
+% Capa e contracapa:
+\input{capa}
+
+\listoftables %lista de  tabelas 
+\newpage
+\listoffigures%lista de figuras 
+\newpage 
+\tableofcontents % Sumário
+
+
+\newpage
+\section{Introdução}
+
+
+
+\section{Metodologia}
+
+
+\section{Conclusão}
+
+
+%\include{Consulta}  
+
+\newpage
+%referencias 
+\nocite{macintyre1990ventilacao}
+\nocite{da2005ventilaccao}
+\bibliographystyle{ieeetr}
+\bibliography{referencia}
+\addcontentsline{toc}{section}{Referências bibliográficas}%adicionar no sumário a seção " Referências bibliográficas"
+
+\newpage
+
+
+%\input{Anexos}
+
+\end{document}
