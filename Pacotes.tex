@@ -1,0 +1,65 @@
+%pacotes para acentuação:
+\usepackage[utf8]{inputenc}
+
+% pacote para o idioma português do Brazil:
+\usepackage[brazil]{babel}
+
+%identação de parágrafos 
+\usepackage{indentfirst}
+
+%pacote para gráfico: 
+\usepackage{graphicx}
+\usepackage{float} % permite o uso do H
+\usepackage{flafter}% colocar bem próximo a figura com o ref
+\usepackage{placeins}%faz a figura ficar dentro da seção onde ele foi colocada
+%\usepackage{subfig}%permite duas figuras lado a lado
+\usepackage{caption}%oermite customizar as legendas das figuras e das tabelas 
+ \usepackage{rotating}% rotacionar a imagem, tabela,pdf
+
+% \usepackage[caption = false]{subfig}
+
+
+
+
+%Pacote com as margens da folha 
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+\usepackage{tocloft}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+\usepackage{hyperref}
+
+\usepackage{pdfpages}%pacote para incluir pdfs
+
+%pacote para mudar marcadores de lista:
+\usepackage[shortlabels]{enumitem}
+
+%pacotes para tabelas
+\usepackage{multirow}
+\usepackage{xcolor}
+
+ %pacotes para matemática 
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+%pacote para desenhar
+\usepackage{tikz}
+
+%comandos para capa e contra capa 
+\newcommand{\alunos}[1]{\def\alunos{#1}}
+\newcommand{\prof}[1]{\def\prof{#1}}
+\newcommand{\disciplina}[1]{\def\disciplina{#1}}
+\newcommand{\tema}[1]{\def\tema{#1}}
+\newcommand{\mes}[1]{\def\mes{#1}}
+\newcommand{\ano}[1]{\def\ano{#1}}
+\newcommand{\preambulo}[1]{\def\preambulo{#1}}
+
+
+% funções criadas
+\newcommand{\eq}[1]
+{\begin{equation}
+    #1
+\end{equation}}
+
+
